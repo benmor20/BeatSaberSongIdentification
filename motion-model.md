@@ -15,10 +15,12 @@ Although we only ended up using acceleration. For simplicity, and to minimize ax
 
 Since we decided to focus on Normal difficulty, we only really had 2 motions: a swing down, and a swing to the side. Since the blocks are tied to the beat of the music, we would expect to see spikes in frequency at the BPM of the song, along with multiples and fractions thereof. As a proof of concept, we first plotted the FFT of our acceleration data to see if there were spikes at the BPM. There are:
 
-<Insert graph with xlines at the BPM>
+![BPM Turn Me On](images/motion-model1.jpg)
 
 This is true for most runs of most songs:
 
-<Graphs of some of the other songs>
+![BPM Lvl Insane](images/motion-model2.jpg)
+
+![BPM Beat Saber](images/motion-model3.jpg)
 
 Additionally, we can see that each song has a qualitatively different shape to it, so it would be theoretically possible to create some sort of classification algorithm to identify the song.

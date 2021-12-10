@@ -7,6 +7,8 @@ By taping a phone to our wrist, we tracked six variables using Matlab Mobile:
 - Acceleration (X, Y, Z), in m/s^2
 - Angular Velocity (around X, Y, and Z), in rad/s
 
+<Insert picture of data collection setup>
+
 Although we only ended up using acceleration. For simplicity, and to minimize axes of freedom, we took the overall magnitude of the acceleration, so we only needed to analyze a single variable.
 
 # Proof of Concept

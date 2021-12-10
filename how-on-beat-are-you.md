@@ -4,7 +4,7 @@
 
 Looking at the fft, we realised that the BPM should have the highest amplitude in the frequency domain. However, we often found that this wasn’t necessarily the case. We know that the game itself bases it’s motion off of the BPM and staying on beat is important to increase the player’s score, but this does not always translate to BPM being the highest spike in frequency domain. In order to determine the percentage of time someone was off-beat, we referenced the highest amplitude as 100% and divided the amplitude at the BPM by whatever the maximum amplitude was - if the BPM was the highest spike, then the user was perfectly on beat. If the BPM was half the height of the highest spike, then the user was only 50% on beat.
 
-![HOB Beat Saber](images/how-on-beat1.jpg)
+![HOB Beat Saber](images/how-on-beat1.png)
 
 ## Results
 

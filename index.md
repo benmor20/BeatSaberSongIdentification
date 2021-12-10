@@ -2,9 +2,9 @@
 
 ![Beat Saber](images/beatsaber-1.jpg)
 
-## Do you want to improve your Beat Saber skills? Learn all about how Beat Saber corresponds with BPM and if you really are on beat!
+### Do you want to improve your Beat Saber skills? Learn all about how Beat Saber corresponds with BPM and if you really are on beat!
 
-### Explore Our Work!
+## Explore Our Work!
 
 #### [Project Overview](project-overview.md)
 What's this all about?

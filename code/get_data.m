@@ -1,4 +1,4 @@
-function [data_train, data_test, flag_train, flag_test] = get_data(num_train, total_num)
+function [data_train, data_test, flag_train, flag_test, shuffled] = get_data(num_train, total_num)
     songs = ["beatsaber", "insane", "turn"];
     start_data = 100;
     max_data = 500;

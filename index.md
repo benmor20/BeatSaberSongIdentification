@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Beat Saber: BPM and Song Identification
 
-You can use the [editor on GitHub](https://github.com/benmor20/BeatSaberSongIdentification/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Overview
+For our final Quantitative Engineering Analysis 3 project, we decided we wanted to explore ways we could identify BPM and songs from the game Beat Saber using frequency analysis. Beat Saber is a VR rhythm game which uses two sabers to cut through blocks to the beat of the music in a specific pattern (“Beat Saber” Wikipedia). We took data from six different songs and used discrete fourier transforms to identify a few different features.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We started by creating an algorithm which would help someone identify how on beat they were while playing a certain song. In VR Heaven’s “How to Improve at Beat Saber” guide, they talk about “One of the reasons why you may be struggling with Beat Saber is you’re not following the Beat correctly.” (VR Heaven). An important aspect of increasing your score in Beat Saber is being able to stay on beat as much as possible since staying on beat for more of the song allows you to get more combos which increases your overall score. We then decided to explore how to determine BPM from frequency domain graphs and attempted to write an algorithm that will identify the BPM of any song using data taken while playing the game. Finally, we wanted to explore the possibilities of using linear regression to identify different songs based on the DFT of the accelerometer data of a user playing that song. 
 
-### Markdown
+We had two specific goals for this project. First, we wanted to explore the different ways we could use the fourier transforms with accelerometer data. We definitely accomplished as we used the fft in all three of our algorithms and learned a lot about the different information which we could extract from our accelerometer data once it was in the frequency domain. Second, we wanted to be careful about how we scoped this project. We only had two weeks to do both our analysis and be able to present it in an understandable way. While we definitely expanded our project a few times, we still left enough time at the end to be able to put meaningful work into our website and presentation of our work. We determined a hard stop ahead of time so that it would give us ample time to write up our work.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Explore Our Work!
 
-```markdown
-Syntax highlighted code block
+### (Motion Model)[motion-model.md]
+What motions did we focus on?
 
-# Header 1
-## Header 2
-### Header 3
+### (Proof-of-Concept)[motion-model.md#proof-of-concept]
+Preliminary analysis of our data
 
-- Bulleted
-- List
+### (BPM classifier)[bpm-classification.md]
+Determining the BPM of the song
 
-1. Numbered
-2. List
+### (How on beat are you?)[how-on-beat-are-you.md]
+What percentage of the song are you on beat for?
 
-**Bold** and _Italic_ and `Code` text
+### (Linear Regression algorithm)[linear-regression-algorithm.md]
+How can we classify different songs based on the fft? 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/benmor20/BeatSaberSongIdentification/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### (Bibliography)[bibliography.md]
+Sources we referenced

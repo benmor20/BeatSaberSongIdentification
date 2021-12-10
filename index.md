@@ -9,20 +9,20 @@ We had two specific goals for this project. First, we wanted to explore the diff
 
 ## Explore Our Work!
 
-### (Motion Model)[motion-model.md]
-What motions did we focus on?
+### Motion Model
+(What motions did we focus on?)[motion-model.md]
 
-### (Proof-of-Concept)[motion-model.md#proof-of-concept]
-Preliminary analysis of our data
+### Proof-of-Concept
+(Preliminary analysis of our data)[motion-model.md#proof-of-concept]
 
-### (BPM classifier)[bpm-classification.md]
-Determining the BPM of the song
+### BPM classifier
+(Determining the BPM of the song)[bpm-classification.md]
 
-### (How on beat are you?)[how-on-beat-are-you.md]
-What percentage of the song are you on beat for?
+### How on beat are you?
+(What percentage of the song are you on beat for?)[how-on-beat-are-you.md]
 
-### (Linear Regression algorithm)[linear-regression-algorithm.md]
-How can we classify different songs based on the fft? 
+### Linear Regression algorithm
+(How can we classify different songs based on the fft?)[linear-regression-algorithm.md]
 
-### (Bibliography)[bibliography.md]
-Sources we referenced
+### Bibliography
+(Sources we referenced)[bibliography.md]

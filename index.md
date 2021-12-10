@@ -12,14 +12,14 @@ What's this all about?
 #### [Motion Model](motion-model.md)
 What motions did we focus on?
 
-#### [Proof of Concept](motion-model.md#proof-of-concept)
+#### [Proof of Concept](proof-of-concept.md)
 Preliminary analysis of our data
-
-#### [BPM Classifier](bpm-classification.md)
-Determining the BPM of the song
 
 #### [How on Beat are you?](how-on-beat-are-you.md)
 What percentage of the song are you on beat for?
+
+#### [BPM Classifier](bpm-classification.md)
+Determining the BPM of the song
 
 #### [Linear Regression Algorithm](linear-regression-algorithm.md)
 How can we classify different songs based on the fft?

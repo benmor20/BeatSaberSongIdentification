@@ -2,6 +2,10 @@
 
 For our final Quantitative Engineering Analysis 3 project, we decided we wanted to explore ways we could identify BPM and songs from the game Beat Saber using frequency analysis. Beat Saber is a VR rhythm game which uses two sabers to cut through blocks to the beat of the music in a specific pattern (“Beat Saber” Wikipedia). We took data from six different songs and used discrete fourier transforms to identify a few different features.
 
+## Value Creation
+
 We started by creating an algorithm which would help someone identify how on beat they were while playing a certain song. In VR Heaven’s “How to Improve at Beat Saber” guide, they talk about “One of the reasons why you may be struggling with Beat Saber is you’re not following the Beat correctly.” (VR Heaven). An important aspect of increasing your score in Beat Saber is being able to stay on beat as much as possible since staying on beat for more of the song allows you to get more combos which increases your overall score. We then decided to explore how to determine BPM from frequency domain graphs and attempted to write an algorithm that will identify the BPM of any song using data taken while playing the game. Finally, we wanted to explore the possibilities of using linear regression to identify different songs based on the DFT of the accelerometer data of a user playing that song. 
+
+## Goals
 
 We had two specific goals for this project. First, we wanted to explore the different ways we could use the fourier transforms with accelerometer data. We definitely accomplished as we used the fft in all three of our algorithms and learned a lot about the different information which we could extract from our accelerometer data once it was in the frequency domain. Second, we wanted to be careful about how we scoped this project. We only had two weeks to do both our analysis and be able to present it in an understandable way. While we definitely expanded our project a few times, we still left enough time at the end to be able to put meaningful work into our website and presentation of our work. We determined a hard stop ahead of time so that it would give us ample time to write up our work.

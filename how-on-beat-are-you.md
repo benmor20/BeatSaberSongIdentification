@@ -2,7 +2,7 @@
 
 ## Algorithm
 
-Looking at the fft, we realised that the BPM should have the highest amplitude in the frequency domain. However, we often found that this wasn’t necessarily the case. We know that the game itself bases its motion off of the BPM and staying on beat is important to increase the player’s score, but this does [not always translate to BPM being the highest spike in frequency domain.](motion-model.md#data-collection).
+Looking at the fft, we realised that the BPM should have the highest amplitude in the frequency domain. However, we often found that this wasn’t necessarily the case. We know that the game itself bases its motion off of the BPM and staying on beat is important to increase the player’s score, but this does [not always translate to BPM being the highest spike in frequency domain](motion-model.md#data-collection).
 
 ![HOB Beat Saber](images/how-on-beat1.png)
 

@@ -1,13 +1,15 @@
 # Motion Model
 
-Our motion model focuses on the acceleration of the left hand. This was chosen for two reasons: first, it was easiest, as all participants in data collection were righties, non-dominant hand was easiest. Second, the left hand often plays the beat of the song, so it would be more accurate for any beat per minute detections.
+Our motion model focuses on the acceleration of the left hand. This was chosen for two reasons: first, it was easiest (as all participants in data collection were righties, non-dominant hand was easiest). Second, the left hand often plays the beat of the song, so it would be more accurate for any beat per minute detections. Once we knew that we wanted to track the motion of the left hand, we explored what would be the best way to do this. Since the game primarily moved in up-and-down motions and left-and-right motions we knew we needed to track motion in those directions but we also wanted to look at rotation. In order to track all of this, we decided that directly attaching our collection device (in this case, our phones) to the arm would be best.
+
+![Data Collection Setup](images/data-collection1.jpg)
 
 By taping a phone to our wrist, we tracked six variables using Matlab Mobile:
 
 - Acceleration (X, Y, Z), in m/s^2
 - Angular Velocity (around X, Y, and Z), in rad/s
 
-Although we only ended up using acceleration. For simplicity, and to minimize axes of freedom, we took the overall magnitude of the acceleration, so we only needed to analyze a single variable.
+Although we only ended up using acceleration. For simplicity, and to minimize axes of freedom, we took the overall magnitude of the acceleration, so we only needed to analyze a single variable. The important frequencies are further explained in our [proof of concept](proof-of-concept.md).
 
 ## Data Collection
 

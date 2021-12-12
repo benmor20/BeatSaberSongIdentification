@@ -9,3 +9,7 @@ Also included in this graph are the lines at both double and half the BPM. We be
 ![BPM Lvl Insane](images/motion-model2.png) ![BPM Beat Saber](images/motion-model3.png)
 
 Additionally, we can see that each song has a qualitatively different shape to it, so it would be theoretically possible to create some sort of classification algorithm to identify the song.
+
+## Next Steps
+
+Given that BPM seems to be a major spike in the frequency domain, we believe it is possible to make some sort of “how on beat are you?” classifier using this information. Additionally, it would be interesting to look into if we can predict the BPM of the song based on this acceleration data and if we can identify the song itself.

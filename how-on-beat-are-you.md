@@ -8,6 +8,8 @@ Looking at the fft, we realised that the BPM should have the highest amplitude i
 
 To determine a user’s grade, we would want to compare their frequency spectrum to that of a perfect sine wave at the BPM. However, since each user is different, there is not one consistent magnitude that we can compare the BPM’s to. Instead, we opted to estimate this magnitude by using the highest magnitude in the whole spectrum (ignoring the first few data points, which always have consistently very high magnitudes and are thus ignored). This means that if a user’s most prominent frequency is the BPM, they get a grade of 100%, but if their BPM magnitude is only half of the tallest, their grade is 50%.
 
+![HOB Equation](images/how-on-beat-eqn.png)
+
 ## Results
 
 For this algorithm, the inputs are the filename where the accelerometer data is saved and the actual bpm of the song. For each song, we were given a grade which determined how close the person was to having their highest amplitude at the BPM. 
